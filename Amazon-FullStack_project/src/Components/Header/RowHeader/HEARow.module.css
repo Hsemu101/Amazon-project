@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0
+}
+
+.MainContainer{
+    display: flex;
+    /* border: solid green; */
+    background-color: #232F3E;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 1;
+}
+
+
+.MainContainer a{
+   color: white;
+   text-decoration: none;
+}
+
+
+
+
+li{
+    list-style-type: none;
+    font-size: 15px;
+    /* font-weight: bold; */
+}
+
+.FirstSeventheen{
+display: flex;
+/* border: solid yellow; */
+width: 85%;
+justify-content: space-between !important;
+
+}
+
+
+
+
+
+
+.HumburgerAndAllBox{
+    display: flex;
+    /* border: solid purple; */
+    padding-left: 18px
+}
+
+
+.HumburgerAndAllBox:hover{
+  border: solid white
+}
+
+
+.MedicalCareBox{
+    /* border: solid rgb(0, 255, 145); */
+    display: flex;
+    /* margin-left: -10px; */
+}
+
+
+.MedicalCareBox:hover{
+    border: solid white
+}
+
+
+
+.MedicalCareBox li{
+    /* border: solid rgb(0, 255, 145); */
+    display: flex;
+   
+ 
+}
+
+.GroceriesBox{
+   
+    display: flex;
+    /* margin-left: -25px; */
+
+}
+
+
+.BestSellersBox{
+    /* margin-left: -25px;  */
+}
+
+
+
+.AmazonBasicsBox{
+    /* margin-left: -20px; */
+}
+
+
+
+
+
+.PrimeBox{
+    display: flex;
+    /* margin-left: -20px; */
+}
+
+
+.NewReleasesBox{
+    /* margin-left: -27px; */
+}
+
+.TodaysDealsBox{
+    /* margin-left: -25px; */
+}
+
+
+.CustomerServiceBox{
+    /* margin-left: -25px; */
+}
+
+.MusicBox{
+    /* margin-left: -25px; */
+}
+
+
+.AmazonHomeBox{
+    /* margin-left: -25px; */
+}
+
+.RegistryBox{
+    /* margin-left: -25px; */
+}
+
+
+.BooksBox{
+    /* margin-left: -25px; */
+}
+
+
+.PharmacyBox{
+    /* margin-left: -25px; */
+}
+
+
+
+.GiftCardsBox{
+   
+    display: flex;
+    /* margin-left: -25px; */
+}
+
+.FashionBox{
+    /* margin-left: -25px; */
+}
+
+
+.SmartHome{
+    /* margin-left: -25px; */
+}
+
+
+
+
+.RightEndWrapperBox{
+    width: 15%;
+    /* border: solid paleturquoise; */
+}
+
+
+.JoinPrimeBox{
+    padding-left: 70px;
+    font-weight: bolder;
+}
+
+
+
+/* ==========================================================Start of Media Query=================================================================== */
+
+@media(min-width: 1870px){
+    *{
+        margin: 0;
+        padding: 0
+    }
+    
+    .MainContainer{
+        display: flex;
+        /* border: solid green; */
+        background-color: #232F3E;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        z-index: 1;
+    }
+    
+    
+    .MainContainer a{
+       color: white;
+       text-decoration: none;
+    }
+    
+    
+    
+    
+    li{
+        list-style-type: none;
+        font-size: 15px;
+        /* font-weight: bold; */
+    }
+    
+    .FirstSeventheen{
+    display: flex;
+    /* border: solid yellow; */
+    width: 84%;
+    justify-content: space-between !important;
+    
+    }
+    
+    
+    
+    
+    
+    
+    .HumburgerAndAllBox{
+        display: flex;
+        /* border: solid purple; */
+        padding-left: 18px
+    }
+    
+    
+    
+    .MedicalCareBox{
+        /* border: solid rgb(0, 255, 145); */
+        display: flex;
+        /* margin-left: -10px; */
+    }
+    
+    .MedicalCareBox li{
+        /* border: solid rgb(0, 255, 145); */
+        display: flex;
+       
+     
+    }
+    
+    .GroceriesBox{
+       
+        display: flex;
+        /* margin-left: -25px; */
+    
+    }
+    
+    
+    .BestSellersBox{
+        /* margin-left: -25px;  */
+    }
+    
+    
+    
+    .AmazonBasicsBox{
+        /* margin-left: -20px; */
+    }
+    
+    
+    
+    
+    
+    .PrimeBox{
+        display: flex;
+        /* margin-left: -20px; */
+    }
+    
+    
+    .NewReleasesBox{
+        /* margin-left: -27px; */
+    }
+    
+    .TodaysDealsBox{
+        /* margin-left: -25px; */
+    }
+    
+    
+    .CustomerServiceBox{
+        /* margin-left: -25px; */
+    }
+    
+    .MusicBox{
+        /* margin-left: -25px; */
+    }
+    
+    
+    .AmazonHomeBox{
+        /* margin-left: -25px; */
+    }
+    
+    .RegistryBox{
+        /* margin-left: -25px; */
+    }
+    
+    
+    .BooksBox{
+        /* margin-left: -25px; */
+    }
+    
+    
+    .PharmacyBox{
+        /* margin-left: -25px; */
+    }
+    
+    
+    
+    .GiftCardsBox{
+       
+        display: flex;
+        /* margin-left: -25px; */
+    }
+    
+    .FashionBox{
+        /* margin-left: -25px; */
+    }
+    
+    
+    .SmartHome{
+        /* margin-left: -25px; */
+    }
+    
+    
+    
+    
+    .RightEndWrapperBox{
+        width: 20%;
+        /* border: solid paleturquoise; */
+    }
+    
+    
+    .JoinPrimeBox{
+        padding-left: 160px;
+        font-weight: bolder;
+    }
+    
+}

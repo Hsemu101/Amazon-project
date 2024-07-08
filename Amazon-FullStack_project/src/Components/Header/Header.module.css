@@ -1,0 +1,588 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+ .MainHeaderContainer{
+    /* border: solid rgb(30, 0, 255); */
+    background-color: #131921;
+    display: flex;
+    align-items: center;
+ }
+
+
+ .FirstOne{
+    /* border: solid yellow;  */
+    width: 18.5%;
+    display: flex;
+    /* padding-top: 5px; */
+ }
+
+ .AmazonLogo img{
+    height: 60px;
+    padding-top: 22px;
+    padding-bottom: 8px;
+    padding-left: 25px;
+    margin-top: 4px; 
+  
+}
+
+
+    .AmazonLogo img:hover{
+    
+        border: solid rgb(255, 255, 255);
+     
+    }
+
+
+
+    .AllLinks{
+        /* border: solid red;  */
+        display: flex;
+       position: relative;
+     
+      
+    }
+
+
+    .AllLinks:hover{
+        border: solid white;
+     
+    }
+
+
+
+
+.Second{
+    /* padding-left: 10px; */
+    padding-top: 27px;
+    /* border: solid yellow; */
+ 
+}
+
+ .location{
+    padding-left:14px;
+    color: white;
+    
+ }
+
+ .TwoLocationHolder{
+    display: flex;
+    flex-direction:column;
+    padding-top: 7px ;
+    padding-bottom: 14px ;
+    /* border: solid green; */
+   
+    
+ }
+
+
+
+ .DeliveringAnchor{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+   
+
+ }
+
+ .UpdateLocationAnchor{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+ }
+
+
+ .MiddleWrapper{
+    width:55%;
+    /* border: solid green; */
+    display: flex;
+    padding-bottom: 8px;
+ }
+
+
+ .AllButtonBox{
+    /* border: solid pink; */ /* This is a box */
+    padding-top: 12px;
+ }
+
+
+ .AllButton{
+font-size: 15px;
+ width: 42px;
+ height: 40px;
+ padding-bottom: 4% !important;
+
+ }
+
+
+ .Input{
+    width: 825px;
+    height: 38px;
+ }
+
+
+
+ .InputBox{
+    padding-top: 13.1px;
+    margin-left: -2px
+ }
+
+
+ input::placeholder{
+   font-size: 18px;
+   
+ }
+
+ .SearchIcon{
+    color: black;
+    text-decoration: none;
+    border: solid orange;
+    height: 39px !important;
+    width: 52px !important;
+    font-size: 34px !important;
+    background-color: #F3A847; 
+}
+
+.SearchBox{
+    padding-top: 13px /* This is a box */
+}
+
+.EndWrapper{
+    /* border: solid goldenrod; */
+    display: flex;
+    width: 26.5%;
+}
+
+.FlagLogoBox{
+    /* border: solid rebeccapurple; This is a box */
+    margin-top: 12px;
+}
+
+.FlagLogoBox img{
+    height: 18px;
+}
+
+.signAccountBox{
+    display: flex;
+    flex-direction:column;
+    position: relative;
+    /* border: solid blue; */
+    margin-top: 5px;
+    margin-left: 14px;
+    
+}
+
+
+.Hello{
+    color:white;
+    text-decoration: none;
+   
+}
+
+.AccountAnchor{
+    color:white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.EnBox{ /* This is a box */
+    margin-left: 4px; 
+    padding-top: 17px;
+  
+}
+
+.ArrowBox{
+    margin-left: -5px; /* This is a box */
+    padding-top: 21px;
+  
+}
+
+.EN{
+    color:white;
+    text-decoration: none;
+}
+
+.insideArrow{
+    color:white;
+    text-decoration: none;
+}
+
+
+.ReturnsAndOrdersBox{
+
+}
+
+.ReturnsAndOrders{
+    color:white;
+    text-decoration: none;
+}
+
+.SecondOrderAnchorBox{
+   
+}
+
+.SecondOrderAnchor{
+    color:white;
+    text-decoration: none;
+}
+
+.returnOrderBox{ /* This is a box */
+    /* border: solid green;  */
+    padding-left: 7px;
+    margin-left: 25px;
+    padding-top: 4px;
+}
+
+
+
+
+
+.InsideCartBox{
+
+}
+
+.InsideCart{
+    font-size: 40px !important;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+}
+
+.CartHolderBox{ /* This is a box */
+    /* border: solid rgb(0, 234, 255);  */
+    position: relative;
+    width: 55px;
+    padding-top: 6px;
+    /* margin-left: 50px; */
+    margin-left: 28px;
+    
+}
+
+.CartBox{
+    position: absolute; /* This is a box */
+    left: 19px
+    }
+
+    
+.CartNumber{
+    color: #ff5e00;
+    text-decoration: none;
+    position: absolute;
+    top: -5px
+}
+
+.ActualCartBox{/* This is a box */
+    /* border: solid #ff5e00;  */
+    margin-left: 44px;
+    margin-left: 14px;
+    padding-top: 4px;
+    margin-top: 13px;
+    margin-left: -15px
+}
+
+.ActualCart{
+    color: white;
+    text-decoration: none;
+}
+
+.Allthreeholder{
+    display: flex;
+}
+
+/* =====================================================================================================================================================
+======================================================================================================================================================= */
+
+/* Media query starts here */
+
+
+@media(min-width: 1870px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    
+    
+     .MainHeaderContainer{
+        /* border: solid rgb(30, 0, 255); */
+        background-color: #131921;
+        display: flex;
+        /* justify-content: space-between !important; */
+        align-items: center;
+     }
+    
+    
+     .FirstOne{
+        /* border: solid yellow;  */
+        width: 18.5%;
+        display: flex;
+        /* padding-top: 5px; */
+     }
+    
+     .AmazonLogo img{
+        height: 60px;
+        padding-top: 22px;
+        padding-bottom: 8px;
+        padding-left: 25px;
+        margin-top: 4px; 
+       
+    };
+        
+ 
+      
+    
+        .AllLinks{ 
+            /* border: solid red;  */
+            display: flex;
+           position: relative;
+           margin-left: 8px;
+        }
+    
+    .Second{
+        /* padding-left: 10px; */
+        padding-top: 27px;
+        /* border: solid yellow; */
+     
+    }
+    
+     .location{
+        padding-left:14px;
+        color: white;
+        
+     }
+    
+     .TwoLocationHolder{
+        display: flex;
+        flex-direction:column;
+        padding-top: 7px ;
+        padding-bottom: 14px ;
+        /* border: solid green; */
+       
+        
+     }
+    
+    
+    
+     .DeliveringAnchor{
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+       
+    
+     }
+    
+     .UpdateLocationAnchor{
+        color: white;
+        text-decoration: none;
+        font-weight: bolder;
+     }
+    
+    
+     .MiddleWrapper{
+        width:58%;
+        /* border: solid green; */
+        display: flex;
+        padding-bottom: 8px;
+        margin-left: -44px
+     }
+    
+    
+     .AllButtonBox{
+        /* border: solid pink;  */
+        padding-top: 12px;
+     }
+    
+    
+     .AllButton{
+    font-size: 15px;
+     width: 42px;
+     height: 40px;
+     padding-bottom: 4% !important;
+    
+     }
+    
+    
+     .Input{
+        width: 1000px;
+        height: 38px;
+        /* border: solid pink; */
+     }
+    
+    
+    
+     .InputBox{
+        padding-top: 13.1px;
+        margin-left: -2px;
+     }
+    
+    
+     input::placeholder{
+       font-size: 18px;
+       
+     }
+    
+     .SearchIcon{
+        color: black;
+        text-decoration: none;
+        border: solid orange;
+        height: 36.5px !important;
+        width: 52px !important;
+        font-size: 34px !important;
+        background-color: #F3A847; 
+    }
+    
+    .SearchBox{
+        padding-top: 13.5px /* This is a box */
+    }
+    
+    .EndWrapper{
+        /* border: solid goldenrod; */
+        display: flex;
+        width: 26.5%;
+    }
+    
+    .FlagLogoBox{
+        /* border: solid rebeccapurple; This is a box */
+        margin-top: 12px;
+       
+    }
+    
+    .FlagLogoBox img{
+        height: 18px;
+    }
+    
+    .signAccountBox{
+        display: flex;
+        flex-direction:column;
+        position: relative;
+        /* border: solid blue; */
+        /* padding-top: 12px; */
+        /* margin-bottom: 15px; */
+        margin-left: 19px;
+       
+        
+    }
+    
+    
+    .Hello{
+        color:white;
+        text-decoration: none;
+       
+    }
+    
+    .AccountAnchor{
+        color:white;
+        text-decoration: none;
+        font-weight: bolder;
+    }
+    
+    .EnBox{ /* This is a box */
+        margin-left: 5px; 
+        padding-top: 13px;
+      /* border: solid green; */
+    }
+    
+    .ArrowBox{
+        margin-left: -5px; /* This is a box */
+        padding-top: 15px;
+      
+    }
+    
+    .EN{
+        color:white;
+        text-decoration: none;
+    }
+    
+    .insideArrow{
+        color:white;
+        text-decoration: none;
+    }
+    
+    
+  
+    
+    .ReturnsAndOrders{
+        color:white;
+        text-decoration: none;
+    }
+    
+    .SecondOrderAnchorBox{
+       
+    }
+    
+    .SecondOrderAnchor{
+        color:white;
+        text-decoration: none;
+    }
+    
+    .returnOrderBox{ /* This is a box */
+        /* border: solid green;  */
+        padding-left: 7px;
+        margin-left: 30px;
+        padding-top: 4px;
+    }
+    
+    
+    
+    
+    
+    .InsideCartBox{
+    
+    }
+    
+    .InsideCart{
+        font-size: 40px !important;
+        position: absolute;
+        color: white;
+        text-decoration: none;
+    }
+    
+    .CartHolderBox{ /* This is a box */
+        /* border: solid rgb(0, 234, 255);  */
+        position: relative;
+        width: 55px;
+        padding-top: 12px;
+        /* margin-left: 50px; */
+        margin-left: 34px;
+        
+    }
+    
+    .CartBox{
+        position: absolute; /* This is a box */
+        left: 19px
+        }
+    
+        
+    .CartNumber{
+        color: #ff5e00;
+        text-decoration: none;
+        position: absolute;
+        top: -5px
+    }
+    
+    .ActualCartBox{/* This is a box */
+        /* border: solid #ff5e00;  */
+        /* margin-left: 44px; */
+        /* margin-left: 14px; */
+        padding-top: 4px;
+        margin-top: 24px;
+        margin-left: -15px
+    }
+    
+    .ActualCart{
+        color: white;
+        text-decoration: none;
+        font-weight: bolder;
+    }
+
+    .Allthreeholder{
+        display: flex;
+        /* border: solid green; */
+        padding-left: 39px;
+        padding-top: 5px
+    }
+}
+

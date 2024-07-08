@@ -1,0 +1,54 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.MainContainer {
+    display: flex;
+    background-color: #232F3E;
+    color: white;
+    padding: 10px 20px;
+}
+
+.MainContainer a {
+   color: white;
+   text-decoration: none;
+   font-size: 14px;
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-right: 20px; 
+}
+
+.FirstSeventheen {
+    display: flex;
+    width: 87%;
+    justify-content: flex-start; 
+    padding-left: 20px; 
+}
+
+.HumburgerAndAllBox, .MedicalCareBox, .GroceriesBox, .BestSellersBox, .AmazonBasicsBox, 
+.PrimeBox, .NewReleasesBox, .TodaysDealsBox, .CustomerServiceBox, .MusicBox, .AmazonHomeBox, 
+.RegistryBox, .BooksBox, .PharmacyBox, .GiftCardsBox, .FashionBox, .SmartHome {
+    display: flex;
+    align-items: center;
+}
+
+.RightEndWrapperBox {
+    width: 13%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.JoinPrimeBox {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 14px; 
+}
